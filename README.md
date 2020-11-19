@@ -1,13 +1,13 @@
 # burl
 
-A broken-URL checker.
-
+Changed by me to report also the 200's 
+A URL checker.
 Work in progress. Not even alpha quality.
 
 ## Install
 
 ```
-▶ go get github.com/tomnomnom/burl
+▶ go get github.com/rawdata1/burl200
 ```
 
 ## Usage
