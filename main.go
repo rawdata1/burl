@@ -60,7 +60,7 @@ func main() {
 				if resp.StatusCode != http.StatusOK {
 					fmt.Printf("non-200 response code: %s (%s)\n", u, resp.Status)
 				}
-				if resp.StatusCode = http.StatusOK {
+				if resp.StatusCode == http.StatusOK {
 					fmt.Printf("Got 200 response code: %s (%s)\n", u, resp.Status)
 				}
 			}
